@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Montserrat:wght@100;400&display=swap');
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("image/stas-cat.png");
+}
+.title span {
+	display: inline;
+	background-color: #ffffff;
+	box-shadow: -10px 0 0 #ffffff, 10px 0 0 #ffffff;
+	padding: 10px 0;
+	color: #000000;
+	font-size: 20px;
+  border-radius: 12px;
+  margin: 50%;
+}
+/*_________________Шапка_сайта_________________*/
+.nav-menu {
+  display: flex;
+  justify-content: center;
+}
+.nav-li {
+  margin: auto 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+}
+.nav-element1 {
+  margin-right: 25px;
+  list-style: none;
+  height: 40px;  
+  
+}
+.nav-element:hover {
+  background-color: orange;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  margin-bottom: 3%;
+  padding-right: 30px;
+}
+.aboba {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 40px;
+  background-size: 250px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  background-clip: text; 
+  color: rgb(255, 255, 255);
+  background-color: rgb(255 255 255 / .2 );
+ 
+  border-radius: 10px;
+  padding: 7px;
+  transition-duration: 0.8s;
+}
+.aboba:hover{
+
+  text-shadow: 0 0 5px #fff,
+               0 0 10px #fff, 
+               0 0 15px #49acee,
+               0 0 20px #49acee, 
+               0 0 25px #49acee,
+               0 0 30px #49acee; 
+                 
+}
+
+
+
+
+
+.sas_a{
+  text-decoration: none;
+}
+/*---------конец---------*/
+.parent {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.child_1 {
+  min-height: 100vh;
+  background-color: rgb(255 255 255 / .5 );
+  width: 50%;
+}
+
+
+
+
+.intro {
+  margin-top: 10%;
+  margin-left: 6%;
+  width: 505px;
+  height: 293px;
+}
+
+
+.name-intro {
+  height: 142px;
+  top: 247px;
+
+  font-family: 'Kenia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 170px;
+  line-height: 170px;
+
+  color: #FFFFFF;
+  transition: 0.9s;
+}
+.name-intro:hover {
+  color: #fff;
+  text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 7px #fff,
+    0 0 24px #0fa,
+    0 0 40px #0fa,
+    0 0 20px #0fa,
+    0 0 40px #0fa,
+    0 0 40px #0fa;
+    cursor: pointer;
+}
+
+
+
+.logo-element {
+  width: 50%;
+}
+.menu {
+  display: flex;
+}
+
+.intro-logo {
+  margin-top: 40px;
+}
+
+.intro-text {
+  padding-top: 10px;
+  width: 807px;
+  height: 125px;
+  
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+/* or 100% */
+
+  letter-spacing: 0.1em;
+
+  color: #FFFFFF;
+}
+
+
+.vk:hover {
+  color: #ffffff;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Poppins', sans-serif;
+}
+a{
+	text-decoration: none;
+	color:#000 ;
+}
+
+
+.wrapper {
+  margin-top: 15%;
+  margin-left: 6%;
+}
+
+
+
+
+.wrapper .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  float: left;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+  transition: all 0.3s ease-out;
+  
+}
+
+.wrapper .button:hover{
+  width: 200px;
+}
+
+.wrapper .button .icon {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box  ;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1):hover .icon{
+  background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+  background: #1DA1F2;
+}
+.wrapper .button:nth-child(3):hover .icon{
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,
+	#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+.wrapper .button:nth-child(4):hover .icon{
+  background: #f11515;
+}
+.wrapper .button:nth-child(5):hover .icon{
+  background: #f5a803;
+}
+
+
+.wrapper .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover .icon i{
+  color: #fff;
+}
+
+.wrapper .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 10px;
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(1) span{
+  color: #4267B2;
+}
+.wrapper .button:nth-child(2) span{
+  color: #1DA1F2;
+}
+.wrapper .button:nth-child(3) span{
+  color: #E1306C;
+}
+.wrapper .button:nth-child(4) span{
+  color: #e60808;
+}
+.wrapper .button:nth-child(5) span{
+  color: #ffae00;
+}
+
+
+.title span {
+	display: inline;
+	background-color: #ffffff;
+	box-shadow: -10px 0 0 #ffffff, 10px 0 0 #ffffff;
+	padding: 10px 0;
+	color: #000000;
+	font-size: 20px;
+  border-radius: 12px;
+  margin: 50%;
+}

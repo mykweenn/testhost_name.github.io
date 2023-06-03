@@ -1,0 +1,141 @@
+/*______________база_____________*/
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-repeat: repeat;
+  background-image: url("image/kir_wp.jpg");
+  padding: 10px;
+}
+footer {
+  background-color: rgb(255 255 255 / .35 );
+  border-top: solid rgb(100 100 100) 2px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+/*_________________Шапка_сайта_________________*/
+.nav-menu {
+  display: flex;
+  justify-content: right;
+}
+.nav-li {
+  margin: auto 0;
+}
+.nav-element1 {
+  margin-right: 25px;
+  list-style: none;
+  height: 40px; 
+}
+.nav-element:hover {
+  background-color: orange;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+.aboba {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Shadows Into Light', cursive;
+  background-size: 250px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  background-clip: text; 
+  color: black;
+  background-color: rgb(255 255 255 / .2 );
+  box-shadow: 0px 0px 12px #000000;
+  border-radius: 10px;
+  padding: 7px;
+
+}
+.sas_a{
+  text-decoration: none;
+}
+/*_________________основа_________________*/
+.text_care {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light', cursive;
+}
+.hed_care {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Shadows Into Light', cursive;
+}
+.hed_care_min {
+  max-width: 75%;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Shadows Into Light', cursive;
+}
+.otec {
+   display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.sinok{
+  background-color: rgb(255 255 255 / .35 );
+  box-shadow: 0px 0px 12px #000000;
+  margin-left: 5%;
+  flex-basis: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+.sinok2{
+  background-color: rgb(255 255 255 / .35 );
+  box-shadow: 0px 0px 12px #000000;
+  margin-right: 5%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 30px;
+}
+.care_img {
+  margin-right: 5%;
+  border-radius: 30px;
+  margin-left: 3%;
+}
+.care_img2 {
+  margin-right: 3%;
+  border-radius: 30px;
+  margin-left: 5%;
+}
+.care_img_cat {
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 12px #000000;
+  
+}
+.footer_c {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Shadows Into Light', cursive;
+}
+.cat_r {
+  max-width: 50%;
+}
+.fraza {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 3em;
+  text-align: center;
+}
+.author {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: right;
+  font-size: 1em;
+}
+.sin {
+  flex-basis: auto;
+  align-items: center;
+  max-width: 50%;
+  margin-left: 10%;
+}
+.sin2 {
+  flex-basis: auto;
+  align-items: center;
+}

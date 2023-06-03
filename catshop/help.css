@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kenia&family=Montserrat:wght@100;400&display=swap');
+html,body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(120deg, #3e514f 0%, #131d1e 74%);
+}
+body {
+    padding: 20px;
+}
+/*.title span {
+	display: inline;
+	padding: 10px 0;
+	color: #000000;
+	font-size: 20px;
+  border-radius: 12px;
+  margin: 50%;
+}*/
+
+span {
+  font-size: 18px;
+}
+.title2 {
+  background-color: rgb(255 255 255 / .5 );
+  box-shadow: 0px 0px 12px #000000;
+  border-radius: 10px;
+	display: inline;
+	padding: 10px 20px;
+	font-size: 20px;
+  margin: 50%;
+}
+footer {
+  background-color: rgb(255 255 255 / .35 );
+  border-top: solid rgb(100 100 100) 2px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin-top: 30px;
+}
+.footer_c {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Shadows Into Light', cursive;
+}
+/*_________________Шапка_сайта_________________*/
+.nav-menu {
+  display: flex;
+  justify-content: center;
+}
+.nav-li {
+  margin: auto 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+}
+.nav-element1 {
+  margin-right: 25px;
+  list-style: none;
+  height: 40px;  
+  
+}
+.nav-element:hover {
+  background-color: orange;
+}
+.nav-cat{
+        margin: 0;
+        list-style: none;
+
+        display: flex;
+        justify-content: right;
+
+
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  margin-bottom: 3%;
+}
+.aboba {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 40px;
+  background-size: 250px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  background-clip: text; 
+  color: rgb(255, 255, 255);
+  background-color: rgb(255 255 255 / .2 );
+ 
+  border-radius: 10px;
+  padding: 7px;
+  transition-duration: 0.8s;
+}
+.aboba:hover{
+
+  text-shadow: 0 0 5px #fff,
+               0 0 10px #fff, 
+               0 0 15px #49acee,
+               0 0 20px #49acee, 
+               0 0 25px #49acee,
+               0 0 30px #49acee; 
+                 
+}
+.cat {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 12px #000000;
+  transition-duration: 0.8s;
+
+
+}
+.sas_a{
+  text-decoration: none;
+}
+/*___________Список_с_выплывающим_ответом___________*/
+.faq__wrapper{
+  margin-top: 20px;
+}
+.ulbord {
+display: block;
+padding: 12px;
+outline: 0;
+cursor: pointer;
+/* -webkit-transition: all 150s ease-in-out;
+transition: all 150s ease-in-out; */
+  
+height: calc(100% + 4px);
+overflow: hidden;
+background-color: rgb(255 255 255 / .5 );
+box-shadow: 0px 0px 12px #000000;
+border-radius: 10px;
+font-family: 'Shadows Into Light'; 
+margin: 0 auto;
+max-width: 80%; 
+/* transition-duration: 0.8s; */
+
+}
+.ulbord1 {
+
+margin-top: 15px;
+padding: 10px;
+background-color: rgb(255 255 255 / .5 );
+box-shadow: 0px 0px 12px #000000;
+border-radius: 10px;
+font-size: 14px;
+line-height: 22px;
+font-family: 'Shadows Into Light', cursive;
+/* transition-duration: 0.8s; */
+max-width: 100%; 
+}
+.faq__list {
+  margin-left: 0px;
+  margin-right: 30px;
+}
+.ots{
+  margin: 10px 0;
+  
+  
+}
+.faq{
+  border-bottom-color: rgb(170, 50, 220, .6);
+  transition-duration: 0.8s;
+}
+summary {
+  display: block; 
+  list-style: none;
+}
+summary::marker,
+summary::-webkit-details-marker {
+display: none;
+transition-duration: 0.8s;
+  
+}
+.image-icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  
+}
+.papa {
+display: flex;
+justify-content: space-between;
+box-sizing: border-box;
+}
+.link {
+transform: rotate(45deg);
+}
+
+details[open] {
+  animation: slide .50s ease-in-out;
+}
+
+@keyframes slide {
+  0%    { opacity: 0; transform:  translate(0, -10px); }
+  100%  { opacity: 1; transform:  translate(0, 0); }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+  list-style: none;
+  width: 5vw;
+  height: 5vw;
+  background-image: url(image/cat_close.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow:0px 0px 20px #000000;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.logo:hover{
+  list-style: none;
+  width: 5vw;
+  height: 5vw;
+  background-image: url(image/cat_open.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow:0px 0px 20px #000000;
+  position: absolute;
+}

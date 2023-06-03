@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+body {
+    background-repeat:no-repeat;
+    background-size:200%;
+    background-image: url("https://wallup.net/wp-content/uploads/2017/11/22/315349-city-skyline.jpg");
+  }
+.title span {
+      display: inline;
+      background-color: #ffffff;
+      box-shadow: -10px 0 0 #ffffff, 10px 0 0 #ffffff;
+      padding: 10px 0;
+      color: #000000;
+      font-size: 20px;
+    border-radius: 12px;
+    margin: 50%;
+  }
+.nav-menu {
+    display: flex;
+    justify-content: right;
+  }
+.nav-li {
+    margin: auto 0;
+  }
+.nav-element1 {
+    margin-right: 25px;
+    list-style: none;
+    height: 40px;  
+  }
+.menu {
+  display: flex;
+}
+.logo-element {
+  width: 50%;
+}
+
+.intro {
+  height: 100vh;
+  background-color: rgba(255,255,255,0.4);
+  vertical-align:middle;
+  max-width: 50%;
+}
+.intro-logo {
+  display:flex;
+  justify-content: center;
+  
+}
+
+.name-intro {
+  display: flex;
+  justify-content:center;
+  
+}
+
+  /*_________________Шапка_сайта_________________*/
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav-li {
+    margin: auto 0;
+  }
+  .nav-element1 {
+    margin-right: 25px;
+    list-style: none;
+    height: 40px;  
+  }
+  .nav-element:hover {
+    background-color: orange;
+  }
+  header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: right;
+    position: absolute;
+
+  }
+  .aboba {
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Shadows Into Light', cursive;
+    background-size: 250px;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: black;
+  }
+  .sas_a{
+    text-decoration: none;
+  }
